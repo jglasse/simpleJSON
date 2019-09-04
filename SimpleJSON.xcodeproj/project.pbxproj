@@ -14,6 +14,7 @@
 		6B5298C2230F6B8F002CD1A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5298C0230F6B8F002CD1A9 /* LaunchScreen.storyboard */; };
 		6B5298CD230F6B8F002CD1A9 /* SimpleJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5298CC230F6B8F002CD1A9 /* SimpleJSONTests.swift */; };
 		6B5298D8230F6B8F002CD1A9 /* SimpleJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5298D7230F6B8F002CD1A9 /* SimpleJSONUITests.swift */; };
+		6B74032D231F1F7C0050FF3A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B74032C231F1F7C0050FF3A /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6B5298D3230F6B8F002CD1A9 /* SimpleJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5298D7230F6B8F002CD1A9 /* SimpleJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJSONUITests.swift; sourceTree = "<group>"; };
 		6B5298D9230F6B8F002CD1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B74032C231F1F7C0050FF3A /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				6B5298B7230F6B8C002CD1A9 /* AppDelegate.swift */,
 				6B5298B9230F6B8C002CD1A9 /* ViewController.swift */,
+				6B74032B231F1F5C0050FF3A /* Models */,
 				6B5298BB230F6B8C002CD1A9 /* Main.storyboard */,
 				6B5298BE230F6B8F002CD1A9 /* Assets.xcassets */,
 				6B5298C0230F6B8F002CD1A9 /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				6B5298D9230F6B8F002CD1A9 /* Info.plist */,
 			);
 			path = SimpleJSONUITests;
+			sourceTree = "<group>";
+		};
+		6B74032B231F1F5C0050FF3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B74032C231F1F7C0050FF3A /* Employee.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				6B5298BA230F6B8C002CD1A9 /* ViewController.swift in Sources */,
 				6B5298B8230F6B8C002CD1A9 /* AppDelegate.swift in Sources */,
+				6B74032D231F1F7C0050FF3A /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
